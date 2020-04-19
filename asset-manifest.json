@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/test_assignments-aviasales_frontend/static/css/main.a2a000e2.chunk.css",
+    "main.js": "/test_assignments-aviasales_frontend/static/js/main.c574eb70.chunk.js",
+    "main.js.map": "/test_assignments-aviasales_frontend/static/js/main.c574eb70.chunk.js.map",
+    "runtime-main.js": "/test_assignments-aviasales_frontend/static/js/runtime-main.d70fec08.js",
+    "runtime-main.js.map": "/test_assignments-aviasales_frontend/static/js/runtime-main.d70fec08.js.map",
+    "static/js/2.9398603e.chunk.js": "/test_assignments-aviasales_frontend/static/js/2.9398603e.chunk.js",
+    "static/js/2.9398603e.chunk.js.map": "/test_assignments-aviasales_frontend/static/js/2.9398603e.chunk.js.map",
+    "index.html": "/test_assignments-aviasales_frontend/index.html",
+    "precache-manifest.113af4d117078ff8f9d1bff5ca60cb3d.js": "/test_assignments-aviasales_frontend/precache-manifest.113af4d117078ff8f9d1bff5ca60cb3d.js",
+    "service-worker.js": "/test_assignments-aviasales_frontend/service-worker.js",
+    "static/css/main.a2a000e2.chunk.css.map": "/test_assignments-aviasales_frontend/static/css/main.a2a000e2.chunk.css.map",
+    "static/js/2.9398603e.chunk.js.LICENSE.txt": "/test_assignments-aviasales_frontend/static/js/2.9398603e.chunk.js.LICENSE.txt",
+    "static/media/Filter.scss": "/test_assignments-aviasales_frontend/static/media/check.68ca57dc.svg",
+    "static/media/logo.0c089234.svg": "/test_assignments-aviasales_frontend/static/media/logo.0c089234.svg",
+    "static/media/App.scss": "/test_assignments-aviasales_frontend/static/media/opensans.811c8bae.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d70fec08.js",
+    "static/js/2.9398603e.chunk.js",
+    "static/css/main.a2a000e2.chunk.css",
+    "static/js/main.c574eb70.chunk.js"
+  ]
+}
