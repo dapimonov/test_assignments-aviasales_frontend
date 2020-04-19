@@ -1,0 +1,68 @@
+.filter {
+    box-sizing: border-box;
+    height: 252px;
+    width: 232px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    .header-span {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+
+        color: #4A4A4A;
+    }
+
+    .label-span {
+        height: 20px;
+        width: 20px;
+        border: 1px solid #9ABBCE;
+        box-sizing: border-box;
+        border-radius: 2px;
+        margin: 0 10px 0 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px 0 0;
+    }
+
+    label {
+        height: 40px;
+        margin: 0 -20px 0;
+        width: auto;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #4A4A4A;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    input {
+        display: none;
+    }
+
+    label:hover {
+        background: #F1FCFF;
+    }
+
+    label:hover input ~ .label-span {
+        border: 1px solid #2196F3;
+    }
+
+    label input:checked ~ .label-span {
+        border: 1px solid #2196F3;
+        background: url(../../svgs/check.svg) no-repeat center;
+        transition: all 0.2s ease;
+    }
+}

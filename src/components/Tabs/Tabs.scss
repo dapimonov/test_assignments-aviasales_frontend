@@ -1,0 +1,42 @@
+.tabs {
+  width: 502px;
+  height: 50px;
+  display: flex;
+  box-sizing: border-box;
+
+  .column {
+    flex: 50%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+    background: #FFFFFF;
+    border: 1px solid #DFE5EC;
+    cursor: pointer;
+  }
+
+  .left {
+    border-radius: 5px 0 0 5px;
+  }
+
+  .right {
+    border-radius: 0 5px 5px 0;
+  }
+
+  .column[isactive='true'] {
+    background: #2196F3;
+    border: 0;
+    color: #FFFFFF;
+  }
+
+  .column:not([isactive='true']):hover {
+    border: 1px solid #2196F3;
+    background: #F1FCFF;
+    color: #2196F3
+  }
+}
